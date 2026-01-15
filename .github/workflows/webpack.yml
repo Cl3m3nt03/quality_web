@@ -33,6 +33,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: |
-          ghcr.io/${{ env.IMAGE_NAME }}:latest
-          ghcr.io/${{ env.IMAGE_NAME }}:${{ github.sha }}
+        tags: ghcr.io/cl3m3nt03/quality_web/web:latest
