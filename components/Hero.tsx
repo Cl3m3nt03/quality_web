@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         </div>
 
         <h1 className="font-graffiti text-7xl md:text-9xl mb-2 text-white leading-tight drop-shadow-[0_10px_10px_rgba(0,0,0,0.8)]">
-          GRAPHICS <br />{" "}
+          GRAPHICS TEST <br />{" "}
           <span className="text-gradient neon-glow">QUALITY</span>
         </h1>
 
