@@ -1,14 +1,13 @@
 services:
   react-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ghcr.io/cl3m3nt03/quality_web:latest
     container_name: quality_web
     labels:
       - "com.centurylinklabs.watchtower.enable=true"
     ports:
-      - "9996:9996"
+      - "9996:9996" 
     restart: always
+    pull_policy: always
     networks:
       - reseau_partage
 
