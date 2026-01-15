@@ -33,4 +33,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/cl3m3nt03/quality_web/web:latest
+        tags: ghcr.io/cl3m3nt03/quality_web:latest
