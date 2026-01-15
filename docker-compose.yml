@@ -1,0 +1,9 @@
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: quality_web
+    ports:
+      - "9996:9996"
+    restart: always
