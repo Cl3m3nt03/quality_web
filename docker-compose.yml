@@ -4,6 +4,15 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: quality_web
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
     ports:
       - "9996:9996"
     restart: always
+    networks:
+      - reseau_partage
+
+networks:
+  reseau_partage:
+    external: true
+    name: global_network
