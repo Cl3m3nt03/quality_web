@@ -17,11 +17,11 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-6 relative z-10 flex flex-col items-center text-center">
         <div className="inline-block px-4 py-1 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-400 text-xs font-bold tracking-[0.3em] uppercase mb-8 animate-bounce">
-          Nouvelle Collection 2025 TEST
+          Nouvelle Collection 2025
         </div>
 
         <h1 className="font-graffiti text-7xl md:text-9xl mb-2 text-white leading-tight drop-shadow-[0_10px_10px_rgba(0,0,0,0.8)]">
-          GRAPHICS TEST <br />{" "}
+          GRAPHICS <br />{" "}
           <span className="text-gradient neon-glow">QUALITY</span>
         </h1>
 
