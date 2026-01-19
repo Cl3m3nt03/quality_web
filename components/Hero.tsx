@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
 
         <div className="flex flex-col sm:flex-row gap-6">
           <a
-            href="#packs"
+            href="https://www.youtube.com/@slayze7"
             className="bg-gradient-to-r from-purple-600 to-orange-500 px-10 py-5 rounded-2xl font-black uppercase tracking-widest text-lg hover:scale-105 transition-transform active:scale-95 shadow-2xl shadow-purple-500/40 flex items-center gap-3"
           >
             Découvrir les Packs
