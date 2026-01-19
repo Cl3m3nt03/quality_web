@@ -1,0 +1,25 @@
+# Robots.txt pour QLT Graphics Quality
+# https://qlt-graphics.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://qlt-graphics.com/sitemap.xml
+
+# Crawl-delay pour eviter la surcharge
+Crawl-delay: 1
+
+# Autoriser tous les robots de recherche
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Bloquer les assets non necessaires pour le SEO
+Disallow: /node_modules/
+Disallow: /*.json$

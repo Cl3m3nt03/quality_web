@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Page principale -->
+  <url>
+    <loc>https://qlt-graphics.com/</loc>
+    <lastmod>2025-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://qlt-graphics.com/components/assets/image1.png</image:loc>
+      <image:title>QLT Graphics Quality - Pack Graphique GTA V FiveM</image:title>
+      <image:caption>Amelioration visuelle pour GTA V avec textures 4K et Ray Tracing</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Section Packs -->
+  <url>
+    <loc>https://qlt-graphics.com/#packs</loc>
+    <lastmod>2025-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://qlt-graphics.com/components/assets/GTA2.png</image:loc>
+      <image:title>Pack LOS ANGELES - Textures 4K GTA V</image:title>
+      <image:caption>Pack graphique ULTRA avec Ray Tracing simule pour GTA V FiveM</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://qlt-graphics.com/components/assets/image3.png</image:loc>
+      <image:title>Pack Japon STREET - FiveM RP</image:title>
+      <image:caption>Pack optimise FPS pour serveurs FiveM RolePlay</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Section Comparaison -->
+  <url>
+    <loc>https://qlt-graphics.com/#comparison</loc>
+    <lastmod>2025-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://qlt-graphics.com/components/assets/image4.png</image:loc>
+      <image:title>Comparaison Avant/Apres GTA V Graphics</image:title>
+      <image:caption>Difference visuelle entre GTA V vanilla et QLT Graphics Pack</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Section Features -->
+  <url>
+    <loc>https://qlt-graphics.com/#features</loc>
+    <lastmod>2025-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

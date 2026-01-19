@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
         <img
           src="/components/assets/image1.png"
           className="w-full h-full object-cover opacity-30 scale-105"
-          alt="Background"
+          alt="Pack graphique GTA V FiveM - Amélioration visuelle avec textures 4K et effets réalistes"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
         <div className="absolute inset-0 bg-concrete opacity-50"></div>
@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-6 relative z-10 flex flex-col items-center text-center">
         <div className="inline-block px-4 py-1 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-400 text-xs font-bold tracking-[0.3em] uppercase mb-8 animate-bounce">
-          Nouvelle Collection 2024
+          Nouvelle Collection 2025
         </div>
 
         <h1 className="font-graffiti text-7xl md:text-9xl mb-2 text-white leading-tight drop-shadow-[0_10px_10px_rgba(0,0,0,0.8)]">

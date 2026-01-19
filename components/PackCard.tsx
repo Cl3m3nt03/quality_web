@@ -13,8 +13,9 @@ const PackCard: React.FC<PackCardProps> = ({ pack }) => {
       <div className="h-64 overflow-hidden relative">
         <img
           src={pack.image}
-          alt={pack.title}
+          alt={`${pack.title} - Pack graphique GTA V FiveM RP avec ${pack.features.slice(0, 2).join(', ')}`}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100"
+          loading="lazy"
         />
         <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-4 py-1 rounded-full text-xs font-black uppercase tracking-widest border border-white/10">
           {pack.tag}

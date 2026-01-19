@@ -10,7 +10,6 @@ services:
     pull_policy: always
     networks:
       - reseau_partage
-
 networks:
   reseau_partage:
     external: true

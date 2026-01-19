@@ -47,8 +47,9 @@ const BeforeAfterSlider: React.FC = () => {
           <div className="absolute inset-0">
             <img
               src="/components/assets/image4.png"
-              alt="After"
+              alt="GTA V avec pack graphique QLT - Textures 4K, couleurs vibrantes et effets visuels améliorés pour FiveM"
               className="w-full h-full object-cover grayscale-0"
+              loading="lazy"
             />
             <div className="absolute bottom-6 right-6 bg-orange-500 text-white px-4 py-1 rounded-full font-bold text-sm tracking-widest uppercase shadow-lg">
               Pack Japon STREET
@@ -62,9 +63,10 @@ const BeforeAfterSlider: React.FC = () => {
           >
             <img
               src="/components/assets/image1.png"
-              alt="Before"
+              alt="GTA V version originale sans mod graphique - Comparaison avant amélioration visuelle"
               className="w-full h-full object-cover grayscale brightness-50 contrast-125"
               style={{ width: `${100 / (sliderPos / 100)}%` }}
+              loading="lazy"
             />
             <div className="absolute bottom-6 left-6 bg-gray-800 text-white px-4 py-1 rounded-full font-bold text-sm tracking-widest uppercase shadow-lg">
               GTA V Base
