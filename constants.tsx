@@ -29,7 +29,7 @@ export const GRAPHIC_PACKS: GraphicPack[] = [
       "Améliorez vos visuels même sur petite config. Léger, propre et efficace.",
     image: "/components/assets/image2.png",
     tag: "PRO",
-    features: ["Nettoyage flous", "Couleurs naturelles"],
+    features: ["Nettoyage flous", "Couleurs naturelles"," Optimisation FPS"],
   },
 ];
 
