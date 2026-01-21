@@ -20,11 +20,11 @@ const App: React.FC = () => {
           <div className="container mx-auto px-6">
             <div className="text-center mb-20">
               <h2 className="font-graffiti text-6xl md:text-8xl mb-6 text-white uppercase tracking-tighter">
-                Mods Graphiques <span className="text-gradient">FiveM Gratuits</span>
+                Pack Graphiques <span className="text-gradient">Gratuits</span>
               </h2>
               <div className="h-1.5 w-32 bg-gradient-to-r from-purple-500 to-orange-500 mx-auto mb-8"></div>
               <p className="text-gray-400 max-w-xl mx-auto uppercase tracking-[0.2em] font-semibold">
-                Téléchargez le meilleur pack graphique GTA 5 2026 : ENB, Reshade et
+                Téléchargez le meilleur pack graphique GTA 5 : ENB, Reshade et
                 textures réalistes optimisés pour FiveM RP.
               </p>
             </div>
@@ -54,7 +54,7 @@ const App: React.FC = () => {
               Rejoignez notre Discord pour obtenir le guide d'installation,
               support technique et accéder aux téléchargements gratuits.
             </p>
-            <a
+            <a  
               href="https://discord.gg/HeuQEZRmfZ"
               title="Rejoindre le Discord QLT Graphics pour télécharger les packs graphiques GTA 5 gratuits"
               className="inline-flex items-center gap-4 bg-white text-black px-12 py-6 rounded-2xl font-black uppercase tracking-[0.2em] text-xl hover:bg-purple-500 hover:text-white transition-all duration-300 group"
@@ -106,7 +106,7 @@ const App: React.FC = () => {
                 </summary>
                 <div className="px-6 pb-6 text-gray-400 leading-relaxed">
                   Pour les PC avec une configuration modeste, nous recommandons notre Pack Japon STREET. Il offre un excellent
-                  FPS Boost tout en améliorant les couleurs et la visibilité nocturne. C'est une alternative légère à QuantV et NVE,
+                  FPS Boost tout en améliorant les couleurs et la visibilité nocturne. C'est une alternative légère à NVE,
                   spécialement optimisée pour FiveM RP avec un impact minimal sur les performances.
                 </div>
               </details>
@@ -118,8 +118,7 @@ const App: React.FC = () => {
                 </summary>
                 <div className="px-6 pb-6 text-gray-400 leading-relaxed">
                   L'installation est simple : rejoignez notre Discord, téléchargez le pack de votre choix et suivez notre guide
-                  d'installation en 2 minutes. Nos packs incluent Reshade pré-configuré, les fichiers ENB nécessaires et un tutoriel
-                  vidéo. Aucune connaissance technique requise pour profiter de textures réalistes sur GTA 5.
+                  d'installation en 2 minutes. Nos packs incluent Reshade pré-configuré, les fichiers ENB nécessaires. Aucune connaissance technique requise pour profiter de textures réalistes sur GTA 5.
                 </div>
               </details>
 

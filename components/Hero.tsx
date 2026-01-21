@@ -28,19 +28,19 @@ const Hero: React.FC = () => {
 
         <p className="max-w-xl text-gray-300 text-lg md:text-xl font-light tracking-wide mb-10 leading-relaxed">
           Téléchargez nos mods graphiques FiveM gratuits : Reshade optimisé, textures 4K,
-          FPS Boost et shaders réalistes. Alternative QuantV et NVE pour tous les configs.
+          FPS Boost et shaders réalistes. Alternativex² NVE pour tous les configs.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6">
           <a
-            href="https://www.youtube.com/@slayze7"
-            title="Voir les showcases des packs graphiques GTA 5 gratuits sur YouTube"
+            href="https://discord.com/invite/HeuQEZRmfZ"
             className="bg-gradient-to-r from-purple-600 to-orange-500 px-10 py-5 rounded-2xl font-black uppercase tracking-widest text-lg hover:scale-105 transition-transform active:scale-95 shadow-2xl shadow-purple-500/40 flex items-center gap-3"
           >
             Télécharger Gratuit
           </a>
           <a
-            href="#packs"
+            href="https://www.youtube.com/@slayze7"
+            title="Voir les showcases des packs graphiques GTA 5 gratuits sur YouTube"
             className="bg-white/5 backdrop-blur-sm border border-white/10 px-10 py-5 rounded-2xl font-black uppercase tracking-widest text-lg hover:bg-white/10 transition-colors flex items-center gap-3"
           >
             <PlayCircle /> Voir les Packs

@@ -7,7 +7,7 @@ export const GRAPHIC_PACKS: GraphicPack[] = [
     id: "qlt-ultra-v1",
     title: "Pack LOS ANGELES",
     description:
-      "Pack graphique GTA 5 gratuit avec textures 4K, Reshade et shaders réalistes. Alternative QuantV optimisée pour FiveM.",
+      "Pack graphique GTA 5 gratuit avec textures 4K, Reshade et shaders réalistes.",
     image: "/components/assets/GTA2.png",
     tag: "ULTRA",
     features: ["Ray Tracing simulé", "Textures 4K", "ENB + Reshade"],
@@ -17,7 +17,7 @@ export const GRAPHIC_PACKS: GraphicPack[] = [
     id: "qlt-pro-street",
     title: "Pack Japon STREET",
     description:
-      "Mod graphique FiveM gratuit avec FPS Boost et couleurs vibrantes. Idéal pour le RP, alternative légère à NVE.",
+      "Mod graphique FiveM gratuit avec FPS Boost et couleurs vibrantes.",
     image: "/components/assets/image3.png",
     tag: "PRO",
     features: ["FPS Boost", "Shaders optimisés", "Nuit réaliste"],

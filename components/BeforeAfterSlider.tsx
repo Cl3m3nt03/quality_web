@@ -32,8 +32,7 @@ const BeforeAfterSlider: React.FC = () => {
             Comparatif Avant/Après GTA 5
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto uppercase tracking-[0.2em]">
-            Glissez pour comparer : GTA 5 original vs mod graphique gratuit avec
-            textures 4K et shaders réalistes.
+            Glissez pour comparer : GTA 5 original vs pack graphique gratuit.
           </p>
         </div>
 

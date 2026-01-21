@@ -28,7 +28,7 @@ const PackCard: React.FC<PackCardProps> = ({ pack }) => {
         <h3 className="font-graffiti text-3xl mb-3 text-white group-hover:text-gradient transition-all">
           {pack.title}
         </h3>
-        <p className="text-gray-400 text-sm leading-relaxed mb-6 h-12 overflow-hidden">
+        <p className="text-gray-400 text-sm leading-relaxed mb-6 min-h-[3rem]">
           {pack.description}
         </p>
 
