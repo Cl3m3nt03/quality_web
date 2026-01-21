@@ -2,7 +2,7 @@ import path from 'path';
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(({ mode, isSsrBuild }) => {
     const env = loadEnv(mode, '.', '');
     return {
       server: {
@@ -18,6 +18,15 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      }
+      },
+      build: {
+        outDir: isSsrBuild ? 'dist/server' : 'dist',
+        rollupOptions: {
+          input: isSsrBuild ? 'entry-server.tsx' : 'index.html',
+        },
+      },
+      ssr: {
+        noExternal: ['lucide-react'],
+      },
     };
 });
